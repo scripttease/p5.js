@@ -1,0 +1,23 @@
+title: p5.js
+
+description: >
+  Learning p5.js
+
+baseurl: "/p5.js" # the subpath of your site, e.g. /blog/
+url: "http://scripttease.github.io" # the base hostname & protocol for your site
+
+permalink: pretty
+
+sass:
+  sass_dir: _scss
+
+defaults:
+  - scope:
+      path: "" # empty string for all files
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
